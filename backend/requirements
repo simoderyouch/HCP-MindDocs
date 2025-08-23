@@ -1,0 +1,66 @@
+# Python 3.12 Compatible Requirements
+# Updated for compatibility with Python 3.12
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AI/ML Libraries - Updated for compatibility
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-groq>=0.0.1
+langchain-qdrant>=0.0.1
+transformers==4.36.0
+sentence-transformers==2.2.2
+tiktoken==0.5.2
+
+# Vector Database & Storage
+qdrant-client
+minio
+
+# File Processing (Python 3.12 Compatible)
+python-docx==1.1.0
+pypdf==3.17.4
+# pymupdf==1.23.8  # Requires Visual Studio - use pypdf instead
+docx2pdf==0.1.8
+pptxtopdf
+pandas==2.1.4
+numpy>=1.26.0  # Updated for Python 3.12 compatibility
+
+# Background Tasks
+celery
+
+# OCR and Image Processing
+pytesseract==0.3.10
+Pillow==10.1.0
+pdf2image==1.16.3
+opencv-python==4.8.1.78
+easyocr==1.7.0
+
+# Utilities
+python-dotenv==1.0.0
+beautifulsoup4==4.12.2
+langdetect==1.0.9
+psutil==5.9.6
+
+# API Keys
+groq==0.4.2
+openai==1.6.1
+
+# Development & Monitoring
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0

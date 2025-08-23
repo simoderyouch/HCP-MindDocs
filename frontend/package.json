@@ -1,0 +1,69 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cyntler/react-doc-viewer": "^1.14.1",
+    "@pdftron/pdfjs-express-viewer": "^8.7.4",
+    "@react-oauth/google": "^0.12.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/page-navigation": "^3.12.0",
+    "@react-pdf-viewer/selection-mode": "^3.12.0",
+    "@react-pdf/renderer": "^3.4.4",
+    "@tanstack/react-table": "^8.16.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@xmldom/xmldom": "^0.8.10",
+    "axios": "^1.6.8",
+    "dompurify": "^3.2.6",
+    "flowbite-react": "^0.9.0",
+    "framer-motion": "^12.23.12",
+    "html-react-parser": "^5.1.10",
+    "mammoth": "^1.7.2",
+    "papaparse": "^5.4.1",
+    "pdfjs-dist": "^3.11.174",
+    "pizzip": "^3.1.7",
+    "pptxgenjs": "^3.12.0",
+    "react": "^18.3.1",
+    "react-csv-reader": "^4.0.0",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.62.0",
+    "react-icons": "^5.2.1",
+    "react-pdf": "^8.0.2",
+    "react-pdf-js": "^5.1.0",
+    "react-pptx": "^2.20.1",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "5.0.1",
+    "react-split": "^2.0.14",
+    "react-table": "^7.8.0",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
