@@ -3,9 +3,8 @@
 A comprehensive full-stack application that combines document processing, AI-powered chat, and intelligent document analysis using Retrieval-Augmented Generation (RAG) technology. Built with FastAPI backend and React frontend, featuring OCR support, multi-document chat, and advanced vector search capabilities.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oXHN8-QJCOU" 
-title="HCP MindDocs Demo" frameborder="0" allow="accelerometer; autoplay; 
-clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the demo](https://img.youtube.com/vi/oXHN8-QJCOU/0.jpg)](https://youtu.be/oXHN8-QJCOU)
+
 
 
 
@@ -580,4 +579,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ using FastAPI, React, PostgreSQL, Redis, Qdrant, MinIO, and AI/ML technologies**
 
 For questions, issues, or contributions, please visit our [GitHub repository](https://github.com/your-username/HCP-MindDocs).
+
 
